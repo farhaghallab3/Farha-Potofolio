@@ -40,32 +40,8 @@ export type Project = {
 
 export const projects: Project[] = [
   {
-    slug: "real-estate-crm",
-    index: "01",
-    name: "Real Estate Sales CRM",
-    title: "Sales CRM for property teams",
-    kind: "Full-stack · CRM",
-    summary:
-      "A production-oriented CRM for real-estate teams to run their daily sales workflow, from first lead to closed deal and commission.",
-    role: "Full-stack engineering & deployment",
-    live: "https://real-estate-sales-crm-beta.vercel.app",
-    tags: ["Next.js", "Django", "PostgreSQL", "Docker", "CRM"],
-    highlights: [
-      "Leads, properties and viewings feeding a deal pipeline",
-      "Tasks, notifications and commission tracking for day-to-day sales ops",
-      "Documents, media storage and analytics",
-      "Authentication and a Django / DRF API behind a Next.js + TypeScript client",
-    ],
-    image: "/projects/real-estate-crm.png",
-    imageHint: "real-estate-crm.png",
-    strip: {
-      label: "Architecture",
-      items: ["Next.js + TypeScript", "Django / DRF", "PostgreSQL", "Docker", "Cloud"],
-    },
-  },
-  {
     slug: "muzakkir",
-    index: "02",
+    index: "01",
     name: "Muzakkir",
     title: "AI-assisted Quran memorization",
     kind: "AI · EdTech",
@@ -90,7 +66,7 @@ export const projects: Project[] = [
   },
   {
     slug: "nabta",
-    index: "03",
+    index: "02",
     name: "Nabta",
     title: "Full-stack web application",
     kind: "Full-stack",
@@ -107,6 +83,30 @@ export const projects: Project[] = [
     ],
     image: "/projects/nabta.webp",
     imageHint: "nabta.webp",
+  },
+  {
+    slug: "real-estate-crm",
+    index: "03",
+    name: "Real Estate Sales CRM",
+    title: "Sales CRM for property teams",
+    kind: "Full-stack · CRM",
+    summary:
+      "A production-oriented CRM for real-estate teams to run their daily sales workflow, from first lead to closed deal and commission.",
+    role: "Full-stack engineering & deployment",
+    live: "https://real-estate-sales-crm-beta.vercel.app",
+    tags: ["Next.js", "Django", "PostgreSQL", "Docker", "CRM"],
+    highlights: [
+      "Leads, properties and viewings feeding a deal pipeline",
+      "Tasks, notifications and commission tracking for day-to-day sales ops",
+      "Documents, media storage and analytics",
+      "Authentication and a Django / DRF API behind a Next.js + TypeScript client",
+    ],
+    image: "/projects/real-estate-crm.png",
+    imageHint: "real-estate-crm.png",
+    strip: {
+      label: "Architecture",
+      items: ["Next.js + TypeScript", "Django / DRF", "PostgreSQL", "Docker", "Cloud"],
+    },
   },
   // STRUCT (hidden for now) - paste back into the array to show it again:
   // {
