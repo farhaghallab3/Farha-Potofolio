@@ -72,7 +72,7 @@ export const projects: Project[] = [
     summary:
       "A memorization platform built around one guided loop: continue, understand, memorize, recite, review. Arabic-first from the first pixel.",
     role: "Frontend & AI experimentation",
-    live: "https://modaker.vercel.app",
+    live: "https://modaker-zeta.vercel.app",
     tags: ["Next.js", "TypeScript", "AI", "Speech-to-Text", "Arabic UX"],
     highlights: [
       "Responsive Arabic-first interface with RTL-aware layouts",
